@@ -1,11 +1,15 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import LoginForm from './LoginForm';
-import LoginCreate from './LoginCreate.js';
+import LoginCreate from './LoginCreate';
 import LoginPasswordLost from './LoginPasswordLost';
 import LoginPasswordReset from './LoginPasswordReset';
+import { UserContext } from '../../UserContext';
 
-const index = () => {
+const Login = () => {
+  const { login } = React.useContext(UserContext);
+
+  if (login === true) return <Navigate to="/conta" />;
   return (
     <div>
       <Routes>
@@ -18,4 +22,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Login;
