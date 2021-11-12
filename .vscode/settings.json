@@ -1,4 +1,4 @@
-{
+/*{
   "files.exclude": {
     "node_modules": true,
     ".vscode": true,
@@ -9,3 +9,4 @@
     "yarn.lock": true
   }
 }
+*/
