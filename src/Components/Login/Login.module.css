@@ -21,7 +21,6 @@
   .login {
     grid-template-columns: 1fr;
   }
-
   .login::before {
     display: none;
   }

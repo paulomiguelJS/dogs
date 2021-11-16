@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from '../Forms/Input';
 import Button from '../Forms/Button';
-import Error from '../Helper/index';
+import Error from '../Helper/Error';
 import useForm from '../../Hooks/useForm';
 import { USER_POST } from '../../Api';
 import { UserContext } from '../../UserContext';
@@ -45,5 +45,3 @@ const LoginCreate = () => {
 };
 
 export default LoginCreate;
-
-

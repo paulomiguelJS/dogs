@@ -13,8 +13,8 @@
   transition: 0.2s;
 }
 
-.input:hover,
-.input:focus {
+.input:focus,
+.input:hover {
   outline: none;
   border-color: #fb1;
   background: white;
