@@ -1,0 +1,8 @@
+.comments {
+  overflow-y: auto;
+  word-break: break-word;
+}
+
+.commnets li {
+  margin-button: 5rem;
+}
