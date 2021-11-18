@@ -1,7 +1,7 @@
 import React from 'react';
+import styles from './PhotoDelete.module.css';
 import { PHOTO_DELETE } from '../../Api';
 import useFetch from '../../Hooks/useFetch';
-import styles from './PhotoDelete.module.css';
 
 const PhotoDelete = ({ id }) => {
   const { loading, request } = useFetch();
@@ -22,7 +22,7 @@ const PhotoDelete = ({ id }) => {
           Deletar
         </button>
       ) : (
-        <button onCLick={handleClick} className={styles.delete}>
+        <button onClick={handleClick} className={styles.delete}>
           Deletar
         </button>
       )}
