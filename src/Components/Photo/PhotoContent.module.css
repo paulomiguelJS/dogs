@@ -28,7 +28,7 @@
   padding: 2rem 2rem 0 2rem;
 }
 
-.single.details {
+.single .details {
   padding: 1rem 0px 0px 0px;
 }
 
@@ -36,9 +36,10 @@
   grid-row: 1/4;
 }
 
-.single.img {
+.single .img {
   grid-row: 1;
   border-radius: 0.4rem;
+  overflow: hidden;
 }
 
 @media (max-width: 64rem) {

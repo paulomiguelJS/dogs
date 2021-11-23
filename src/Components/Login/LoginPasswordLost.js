@@ -19,14 +19,14 @@ const LoginPasswordLost = () => {
         url: window.location.href.replace('perdeu', 'resetar'),
       });
       const { json } = await request(url, options);
+      console.log(json);
     }
   }
 
   return (
     <section>
-      <Head title="Create your account" />
-
-      <h1 className="title">Forgot your password? </h1>
+      <Head title="Perdeu a senha" />
+      <h1 className="title">Perdeu a senha?</h1>
       {data ? (
         <p style={{ color: '#4c1' }}>{data}</p>
       ) : (

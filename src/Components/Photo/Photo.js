@@ -22,7 +22,6 @@ const Photo = () => {
     return (
       <section className="container mainContainer">
         <Head title={data.photo.title} />
-
         <PhotoContent single={true} data={data} />
       </section>
     );
