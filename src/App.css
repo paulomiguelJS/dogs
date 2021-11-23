@@ -90,3 +90,13 @@ a {
     transform: initial;
   }
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: canc(100vh + 10rem);
+}
+
+.AppBody {
+  flex: 1;
+}
