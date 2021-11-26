@@ -43,7 +43,7 @@ const UserStatsGraphs = ({ data }) => {
           }}
         />
       </div>
-      yya
+
       <div className={styles.graphItem}>
         <VictoryChart>
           <VictoryBar alignment="start" data={graph}></VictoryBar>
