@@ -14,6 +14,7 @@
 
 <h2>🔖 Description</h2>
 
+<p>Social Media for Dogs </p>
 
 </br>
 
