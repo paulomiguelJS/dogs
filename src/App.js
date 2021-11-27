@@ -22,8 +22,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="login/*" element={<Login />} />
-              <ProtectedRoute path="conta/*" element={<User />} />
-              <Route path="foto/:id" element={<Photo />} />
+              <ProtectedRoute path="account/*" element={<User />} />
+              <Route path="photo/:id" element={<Photo />} />
               <Route path="perfil/:user" element={<UserProfile />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './LoginPasswordLost.module.css';
 import Input from '../Forms/Input';
 import Button from '../Forms/Button';
 import useForm from '../../Hooks/useForm';
@@ -25,17 +26,17 @@ const LoginPasswordLost = () => {
 
   return (
     <section className="animeLeft">
-      <Head title="Perdeu a senha" />
-      <h1 className="title">Perdeu a senha?</h1>
+      <Head title="Forgot your Password" />
+      <h1 className={styles.forgotTitle}>Forgot your password?</h1>
       {data ? (
         <p style={{ color: '#4c1' }}>{data}</p>
       ) : (
         <form onSubmit={handleSubmit}>
-          <Input label="Email / Usuário" type="text" name="login" {...login} />
+          <Input label="Email / User" type="text" name="login" {...login} />
           {loading ? (
-            <Button disabled>Enviando...</Button>
+            <Button disabled>Sending...</Button>
           ) : (
-            <Button>Enviar Email</Button>
+            <Button>Send Email</Button>
           )}
         </form>
       )}

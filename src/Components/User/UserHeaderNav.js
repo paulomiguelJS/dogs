@@ -35,21 +35,21 @@ const UserHeaderNav = () => {
           mobileMenu && styles.navMobileActive
         }`}
       >
-        <NavLink to="/conta" end>
+        <NavLink to="/account" end>
           <MinhasFotos />
-          {mobile && 'Minhas Fotos'}
+          {mobile && 'My Photos'}
         </NavLink>
-        <NavLink to="/conta/estatisticas">
+        <NavLink to="/account/statistics">
           <Estatisticas />
-          {mobile && 'Estatísticas'}
+          {mobile && 'Statistics'}
         </NavLink>
-        <NavLink to="/conta/postar">
+        <NavLink to="/account/post">
           <AdicionarFoto />
-          {mobile && 'Adicionar Foto'}
+          {mobile && 'Add a Photo'}
         </NavLink>
         <button onClick={userLogout}>
           <Sair />
-          {mobile && 'Sair'}
+          {mobile && 'Log out'}
         </button>
       </nav>
     </>

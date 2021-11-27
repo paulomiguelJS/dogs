@@ -7,7 +7,7 @@ const PhotoDelete = ({ id }) => {
   const { loading, request } = useFetch();
 
   async function handleClick() {
-    const confirm = window.confirm('Tem certeza que deseja deletar?');
+    const confirm = window.confirm('Are you sure to delete this photo?');
     if (confirm) {
       const { url, options } = PHOTO_DELETE(id);
       const { response } = await request(url, options);
@@ -19,11 +19,11 @@ const PhotoDelete = ({ id }) => {
     <>
       {loading ? (
         <button className={styles.delete} disabled>
-          Deletar
+          Delete
         </button>
       ) : (
         <button onClick={handleClick} className={styles.delete}>
-          Deletar
+          Delete
         </button>
       )}
     </>
