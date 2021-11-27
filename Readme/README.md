@@ -43,6 +43,5 @@
     Run project
     $ npm start
 
-
 <br>
 Create with 💙 by <a href="https://github.com/paulomiguelJS/dogs" target="_blank">Paulo Miguel</a></p>
