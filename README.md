@@ -27,17 +27,16 @@
 
 <br>
 
-<h2>ℹ️ Click here to visit</h2>
+<h2>ℹ️ Click here to visit:</h2>
 <a href="https://dogs-paulomigueljs.vercel.app/" target="_blank">Dogs - Social Media for Dogs</a>
 
 <br>
 <br>
 
-
 <h2>ℹ️ To run this project you need:</h2>
 
     Clone this repository
-    $ git clone https://github.com/rafaasimi/Dogs-Origamid.git
+    $ git clone https://github.com/paulomiguelJS/dogs.git
 
     Install dependencies
     $ npm install
