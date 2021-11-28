@@ -40,10 +40,10 @@ const LoginForm = () => {
         Forgot your password?
       </Link>
       <div className={styles.cadastro}>
-        <h2 className={styles.subtitle}>Register</h2>
-        <p>Don't have an account yet? Register on the website.</p>
+        <h2 className="title">Register</h2>
+        <p>Don't have an account yet? Create on the website.</p>
         <Link to="/login/create">
-          <Button>Register</Button>
+          <Button>Create</Button>
         </Link>
       </div>
     </section>
