@@ -12,8 +12,11 @@
 
 .photo {
   display: grid;
+
   border-radius: 0.2rem;
+
   overflow: hidden;
+
   cursor: pointer;
 }
 
@@ -22,22 +25,29 @@
 }
 
 .visualizacao {
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  font-size: 1rem;
-  text-align: center;
+  display: none;
   align-items: center;
   justify-content: center;
+
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+
+  font-size: 1rem;
+  text-align: center;
+
   grid-area: 1/1;
-  display: none;
 }
 
 .visualizacao::before {
+  display: inline-block;
+
+  content: '';
+
   width: 16px;
   height: 10px;
-  content: '';
-  display: inline-block;
+
   margin-right: 0.25rem;
+
   background: url('../../Assets/visualizacao.svg') no-repeat;
 }
 
