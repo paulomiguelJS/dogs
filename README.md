@@ -7,14 +7,15 @@
     <img src="https://img.shields.io/github/languages/count/paulomigueljs/dogs">
     <img src="https://img.shields.io/github/languages/top/paulomigueljs/dogs">
 </div>
-
 </div>
 
 </br>
 
+<h1>Dogs - Social Media for Dogs</h1>
+
 <h2>🔖 Description</h2>
 
-<p>Social Media for Dogs </p>
+<p>In this project the user will be able to create an account, recover password, post images, comment, interact with other users, it is also possible to view graphs with statistics and more. </p>
 
 </br>
 
@@ -45,4 +46,4 @@
     $ npm start
 
 <br>
-Create with 💙 by <a href="https://github.com/paulomiguelJS/dogs" target="_blank">Paulo Miguel</a></p>
+Created with 💙 by <a href="https://github.com/paulomiguelJS/dogs" target="_blank">Paulo Miguel</a></p>
